@@ -1,0 +1,8 @@
+• (NOVA R1) 2024/05/20 :
+- Initial Release
+- Merged Linux 'v4.19.314'
+- Merged 'ASB-2024-05-05_4.19-stable'
+- Merged CodeLinaro 'LA.UM.9.12.r1-17600.04-SMxx50.QSSI14.0'
+- Custom CPU & GPU Clock Table
+- Implemented KProfile (default mode 1)
+- Much more
