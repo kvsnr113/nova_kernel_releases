@@ -1,9 +1,9 @@
 # NOVA Kernel - Munch (POCO F4) 
-Custom & Riced Kernel for Munch (Poco F4) with latest Linux tag, Google ASB tag, and CodeLinaro tag.
+Custom & Riced Kernel for Munch (Poco F4) with latest Linux tag, Google ASB tag, and CodeLinaro tag. Compiled with Clang 19 FullLTO + Polly, + O3 + MLGO.
 
-Compiled with FullLTO+Polly+O3
+Aims for Best Efficiency And Maximum Optimization.
 
-Inlined; KernelSU, KProfile
+Features : KernelSU, Kprofile, KCAL
 
 # Credits
 EmanuelCN0 and testers
