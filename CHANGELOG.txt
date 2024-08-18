@@ -1,3 +1,85 @@
+• (NOVA R7) 2024/08/18 :
+- Merged Linux v4.19.319 tag
+- Merged August Google ASB tag
+- Initial support for Alioth (POCO F3)
+- Initial support for Apollo/Pro (Mi10T/Pro)
+- Major improvement under the hood
+- Added specific inlining optimization threshold under kernel parts
+- Updated compiler to Google AOSP Clang 19
+- See Github for full changelogs
+
+• (NOVA R6) 2024/07/17 :
+- Merged Linux v4.19.317 tag
+- Merged July Google ASB tag
+- Introduced per-cluster scheduler DVFS headroom to replace old boost method
+- Adjusted devfreq boost base frequency to match DVFS headroom changes
+- A lot of changes and optimization for kernel stability
+- A lot of micro optimization under kernel scheduler and block
+- Fixed freezing/force close issue for some users
+- Further debloated kernel features and functions much more
+- Shipped compiler with latest AOSP clang by Google
+- Munch more, lazy to write. Check source for complete changelogs.
+
+• (NOVA R5) 2024/07/01 :
+- Any random reboot or freeze issue should be fixed now (except for HyperOS due to ximi skill issue lol)
+- Heavily debloated debugging, tracing, logging, coresight and useless kernel features
+- Heavily debloated munch dtbo overlay and dtb
+- Kernel is now compact & clean asf
+- Switched to uncompressed kernel image
+- Booting time is now much faster due to compact size
+- Major changes under kernel scheduler related stuff
+- Reduced latency to enter idle time, also aggressively try to enter device into idle state
+- Reset back and merge GPU drm/atomic changes to latest linux
+- Implemented GPU busy scale tuning
+- Fixed slow charging issue for some users and reworked charging drivers
+- PD charger is now allowed to charge up to 30watt
+- Kills wakelock faster for better deepsleep
+- Improved kernel stability from compiler side
+- Munch bunch more...
+(!! HyperOS SUPPORT IS NOW DROPPED, !!)
+
+• (NOVA R4) 2024/06/21 :
+- Linux v4.19.316
+- Fixed scrolling and ui lag/stutter due to boosting being totally turned off.
+- Fixed KernelSU 'pm', 'dexopt' and any other terminal command.
+- Disabled Multi-Gen LRU by default due to some problematic rom, use this module to enable it.
+- Revert back to 250hz kernel scheduler tick rate.
+- Added & enabled BBR v2 TCP congestion algorithm.
+- More adjustment to KProfile and boosting driver for better utilization.
+- Stability improvement in kernel/math due to some compiler flags being reverted.
+- Bumped GPU voltage by a bit to prevent artifacts for some users with bad silicone.
+- Bumped KGSL GMU frequency.
+- Munch More...
+
+• (NOVA R3) 2024/06/10 :
+- Fix Anykernel3 does not install dtbo properly
+- Merged Google's 'android-4.19-stable'
+- Updated KernelSU to v0.9.5
+- Added Multi-Gen LRU
+- Added Display KCAL Color Calibration
+- Increased Color Contrast And Saturation
+- Reworked KProfile and Input Boosting for CPU and Devfreq
+- Re-Optimize CPU Freq Table
+- Spoofed kernel name to hide GApps detections 
+- Improved Kernel Scheduler
+- Switch Scheduler Tick Rate to 100Hz
+- Enabled Compiler Machine Learning Guided Optimization
+- Improved Overall Performance & Efficiency 
+- Munch More...
+
+(MAJOR UPDATE & FIXES)
+
+• (NOVA R2) 2024/05/29 :
+- Merged Linux 'v4.19.315'
+- Merged KernelSU 'v0.9.4'
+- Switched Compiler to Neutron Clang 19
+- Kprofile Improvement 
+- Scheduler Improvement
+- Many More !
+
+(KSU Build Now Separated With Non KSU Build !)
+
+
 • (NOVA R1) 2024/05/20 :
 - Initial Release
 - Merged Linux 'v4.19.314'
