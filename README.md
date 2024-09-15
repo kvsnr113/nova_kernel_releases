@@ -3,7 +3,7 @@ Custom & Riced Kernel for Munch (Poco F4) with latest Linux tag, Google ASB tag,
 
 Aims for Best Efficiency And Maximum Optimization.
 
-Supported Rom : AOSP, CLO, MIUJ
+Supported Rom : AOSP, CLO, MIUI
 Features : KernelSU, Kprofiles, KCAL
 
 # Credits
